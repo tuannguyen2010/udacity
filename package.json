@@ -1,0 +1,29 @@
+{
+  "name": "udacity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuannguyen2010/udacity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuannguyen2010/udacity/issues"
+  },
+  "homepage": "https://github.com/tuannguyen2010/udacity#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.0.1",
+    "bitcoinjs-message": "^2.2.0",
+    "body-parser": "^1.20.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.1",
+    "hex2ascii": "^0.0.3",
+    "morgan": "^1.10.0",
+    "web3": "^1.7.4"
+  }
+}
