@@ -45,7 +45,12 @@ class Block {
         previousBlockHash: self.previousBlockHash,
       };
       // Recalculate the hash of the Block
+    
+      console.log('validate block');
+      console.log(currentBlock);
       const calculateHash = SHA256(JSON.stringify(currentBlock)).toString();
+      console.log(calculateHash);
+      console.log(self.hash);
       if (self.hash === calculateHash) resolve(true);
 
       resolve(false);
